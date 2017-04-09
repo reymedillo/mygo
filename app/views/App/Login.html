@@ -1,0 +1,24 @@
+{{set . "title" "Login"}}
+{{template "header-no-login.html" .}}
+<article id="work" class="panel">
+    <header>
+      <h2>Login</h2>
+    </header>
+    <form action="#" method="post">
+      <div>
+        <div class="row">
+            <div class="12u 12u$(mobile)">
+              <input type="text" name="username" placeholder="UserName" />
+            </div>
+            <div class="12u$ 12u$(mobile)">
+              <input type="password" name="password" placeholder="Password" />
+            </div>
+
+            <div class="12u$">
+              <input type="submit" value="Login" />
+            </div>
+        </div>
+      </div>
+    </form>
+</article>
+{{template "footer.html" .}}
